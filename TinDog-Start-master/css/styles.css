@@ -1,0 +1,143 @@
+#title{
+    background-color: #ff4c68;
+    color: white;
+    padding-bottom: 6%;
+}
+.heading{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 3rem;
+    margin-bottom: 2em;
+    font-weight: bold;
+}
+.fluid{
+    padding: 3% 15% !important;
+}
+.iphone-6{
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 10%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* Navbar */
+.navbar{
+    padding-bottom: 4.5rem !important;
+    padding-left: 0 !important;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem !important;
+}
+.nav-item{
+    padding: 0 18px !important;
+}
+.nav-link{
+    font-size: 1.2rem !important;
+
+}
+.download-button{
+    margin:0 0.5em !important;
+}
+h3{
+    font-size: 1.5rem !important;
+    font-family: 'Ubuntu', sans-serif !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+    font-weight: bold !important;
+    line-height: 1.5 !important;
+}
+.feature-icons{
+    color: #ef8172;
+    padding-bottom: 5%;
+}
+.feature-icons:hover{
+    color: #ff4c68;
+}
+p{
+    text-align: center;
+    color: #8f8f8f;
+    width: 60%;
+    margin: 0 auto;
+    
+    
+}
+#features{
+    padding: 7% 15% !important;
+    position: relative;
+    background-color: #Fff;
+}
+.feature-box{
+    text-align: center;
+    /* padding: 5%; */
+}
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+.testimonial-image{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+h2{
+    line-height: 1.5 !important;
+    font-size: 3rem !important;
+    width: 80% !important;
+    margin: 0 auto;
+}
+#press{
+    background-color: #ef8172;
+    padding-bottom: 5%;
+    text-align: center
+}
+.press-image{
+    width: 10%;
+    margin: 0 3%;
+}
+.carousel-x{
+    padding: 7% 15% !important;
+}
+#pricing{
+    padding: 7% 15%;
+    text-align: center;
+}
+.pricing-row{
+    padding-top: 3%;
+}
+@media (max-width:1028px){
+    .iphone-6{
+        position: static;
+        transform: rotate(0);
+        padding-top: 15%;
+    }
+    #title{
+        text-align: center;
+    }
+}
+#cta{
+    padding: 7% 15% !important;
+    background-color: #ff4c68;
+    text-align: center;
+}
+.cta-x{
+    font-size: 2.5rem !important;
+    color: #Fff;
+    padding-bottom: 5%;
+    line-height: 1.5;
+    
+}
+#footer{
+    background-color: #Fff;
+    text-align: center;
+    padding: 7% 15% 0%!important;
+}
+.footer-icons{
+    padding: 0 1% 2%;
+}
